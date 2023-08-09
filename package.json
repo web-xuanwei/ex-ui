@@ -49,5 +49,8 @@
     "vite-plugin-dts": "1.4.1",
     "vitest": "^0.34.1",
     "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@exc-ui/hooks": "workspace:^"
   }
 }
