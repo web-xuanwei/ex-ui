@@ -1,8 +1,5 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    <exc-button type="primary"></exc-button>
-  </div>
+  <div><exc-button type="primary"></exc-button></div>
 </template>

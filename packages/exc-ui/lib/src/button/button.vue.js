@@ -1,8 +1,11 @@
-"use strict";
-Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
-const vue = require("vue");
-require("./style/index.css");
-const __default__ = vue.defineComponent({ name: "exc-button" });
+'use strict';
+Object.defineProperties(exports, {
+  __esModule: { value: true },
+  [Symbol.toStringTag]: { value: 'Module' }
+});
+const vue = require('vue');
+require('./style/index.css');
+const __default__ = vue.defineComponent({ name: 'exc-button' });
 const _sfc_main = /* @__PURE__ */ vue.defineComponent({
   ...__default__,
   props: {
@@ -14,9 +17,17 @@ const _sfc_main = /* @__PURE__ */ vue.defineComponent({
       return { [`exc-button--${buttonProps.type}`]: buttonProps.type };
     });
     return (_ctx, _cache) => {
-      return vue.openBlock(), vue.createElementBlock("button", {
-        class: vue.normalizeClass(["exc-button", vue.unref(buttonStyle)])
-      }, "测试按钮", 2);
+      return (
+        vue.openBlock(),
+        vue.createElementBlock(
+          'button',
+          {
+            class: vue.normalizeClass(['exc-button', vue.unref(buttonStyle)])
+          },
+          '测试按钮',
+          2
+        )
+      );
     };
   }
 });

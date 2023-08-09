@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-import './style/index.less'
+import './style/index.less';
 
-defineOptions({name: 'ex-icon'});
+defineOptions({ name: 'ex-icon' });
 </script>
 
 <template>

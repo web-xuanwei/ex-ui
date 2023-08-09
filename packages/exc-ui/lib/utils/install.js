@@ -1,5 +1,5 @@
-"use strict";
-Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
+'use strict';
+Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 const withInstall = (comp) => {
   comp.install = (app) => {
     const name = comp.name;

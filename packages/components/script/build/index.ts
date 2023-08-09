@@ -1,10 +1,10 @@
-import delPath from "../utils/delpath";
-import { series, parallel, src, dest } from "gulp";
-import { pkgPath, componentPath } from "../utils/path";
-import run from "../utils/run";
+import delPath from '../utils/delpath';
+import { series, parallel, src, dest } from 'gulp';
+import { pkgPath, componentPath } from '../utils/path';
+import run from '../utils/run';
 
-const less = require("gulp-less");
-const autoprefixer = require("gulp-autoprefixer");
+const less = require('gulp-less');
+const autoprefixer = require('gulp-autoprefixer');
 
 // 删除dist
 export const removeDist = () => {
@@ -22,7 +22,7 @@ export const buildStyle = () => {
 
 // 打包组件
 export const buildComponent = async () => {
-  run("pnpm run build", componentPath);
+  run('pnpm run build', componentPath);
 };
 
 export default series(
@@ -30,5 +30,5 @@ export default series(
   parallel(
     async () => buildStyle(),
     async () => buildComponent()
-  )  
+  )
 );

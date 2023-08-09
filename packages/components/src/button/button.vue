@@ -1,18 +1,18 @@
 <script lang="ts" setup>
-   import './style/index.less'
-   import { computed } from 'vue'
-   
-   defineOptions({name: 'exc-button'})
+import './style/index.less';
+import { computed } from 'vue';
 
-   type ButtonProps = {
-      type?: string
-   };
+defineOptions({ name: 'exc-button' });
 
-   const buttonProps = defineProps<ButtonProps>();
+type ButtonProps = {
+  type?: string;
+};
 
-   const buttonStyle = computed(() => {
-      return { [`exc-button--${buttonProps.type}`]: buttonProps.type }
-   });
+const buttonProps = defineProps<ButtonProps>();
+
+const buttonStyle = computed(() => {
+  return { [`exc-button--${buttonProps.type}`]: buttonProps.type };
+});
 </script>
 
 <template>

@@ -4,4 +4,4 @@ import { resolve } from 'path';
 export const componentPath = resolve(__dirname, '../../');
 
 // pkg 目录
-export const pkgPath = resolve(__dirname, "../../../");
+export const pkgPath = resolve(__dirname, '../../../');
