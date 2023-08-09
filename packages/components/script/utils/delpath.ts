@@ -30,7 +30,7 @@ const delPath = async (path: string) => {
       }
     });
 
-    if(path != `${pkgPath}/ex-ui`){
+    if(path != `${pkgPath}/exc-ui`){
       fs.rmdirSync(path);
     }
   }

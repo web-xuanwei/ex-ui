@@ -8,7 +8,7 @@ const autoprefixer = require("gulp-autoprefixer");
 
 // 删除dist
 export const removeDist = () => {
-  return delPath(`${pkgPath}/ex-ui`);
+  return delPath(`${pkgPath}/exc-ui`);
 };
 
 // 打包样式
@@ -16,8 +16,8 @@ export const buildStyle = () => {
   return src(`${componentPath}/src/**/style/**.less`)
     .pipe(less())
     .pipe(autoprefixer())
-    .pipe(dest(`${pkgPath}/ex-ui/lib/src`))
-    .pipe(dest(`${pkgPath}/ex-ui/es/src`));
+    .pipe(dest(`${pkgPath}/exc-ui/lib/src`))
+    .pipe(dest(`${pkgPath}/exc-ui/es/src`));
 };
 
 // 打包组件

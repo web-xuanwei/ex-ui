@@ -22,7 +22,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../ex-ui/es",
+          dir: "../exc-ui/es",
         },
         {
           //打包格式
@@ -33,14 +33,14 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../ex-ui/lib",
+          dir: "../exc-ui/lib",
         },
       ],
     },
     lib: {
       entry: "./index.ts",
-      name: "ex-ui",
-      fileName: "ex-ui",
+      name: "exc-ui",
+      fileName: "exc-ui",
       formats: ["es", "umd", "cjs"],
     },
   },
@@ -49,7 +49,7 @@ export default defineConfig({
     DefineOptions(),
     dts({
       entryRoot: "./src",
-      outputDir: ["../ex-ui/es/src", "../ex-ui/lib/src"],
+      outputDir: ["../exc-ui/es/src", "../exc-ui/lib/src"],
       //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
       tsConfigFilePath: "../../tsconfig.json",
     }),
