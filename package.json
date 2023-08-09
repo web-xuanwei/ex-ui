@@ -4,15 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:ex-ui": "gulp -f packages/components/script/build/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/gulp": "^4.0.13",
+    "@types/gulp-autoprefixer": "^0.0.34",
+    "@types/gulp-less": "^0.0.33",
+    "@types/node": "^20.4.9",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/runtime-core": "^3.3.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-less": "^5.0.0",
     "less": "^4.2.0",
+    "sucrase": "^3.34.0",
     "typescript": "^5.1.6",
     "unplugin-vue-define-options": "^1.3.15",
     "vite": "^4.4.9",

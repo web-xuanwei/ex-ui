@@ -1,0 +1,21 @@
+{
+  "name": "ex-ui",
+  "version": "1.0.0",
+  "description": "vue3 组件库",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "ex-ui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "ex-xw",
+  "license": "MIT",
+  "typings": "lib/index.d.ts"
+}

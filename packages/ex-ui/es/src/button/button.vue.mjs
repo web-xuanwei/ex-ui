@@ -1,5 +1,5 @@
 import { defineComponent, computed, openBlock, createElementBlock, normalizeClass, unref } from "vue";
-import "./style/index.less.mjs";
+import "./style/index.css";
 const __default__ = defineComponent({ name: "ex-button" });
 const _sfc_main = /* @__PURE__ */ defineComponent({
   ...__default__,
