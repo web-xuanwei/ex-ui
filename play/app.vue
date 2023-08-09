@@ -3,6 +3,6 @@
 
 <template>
   <div>
-    <ex-button type="primary"></ex-button>
+    <exc-button type="primary"></exc-button>
   </div>
 </template>

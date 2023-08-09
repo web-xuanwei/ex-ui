@@ -2,7 +2,7 @@
 Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
 const vue = require("vue");
 require("./style/index.css");
-const __default__ = vue.defineComponent({ name: "ex-button" });
+const __default__ = vue.defineComponent({ name: "exc-button" });
 const _sfc_main = /* @__PURE__ */ vue.defineComponent({
   ...__default__,
   props: {
@@ -11,11 +11,11 @@ const _sfc_main = /* @__PURE__ */ vue.defineComponent({
   setup(__props) {
     const buttonProps = __props;
     const buttonStyle = vue.computed(() => {
-      return { [`ex-button--${buttonProps.type}`]: buttonProps.type };
+      return { [`exc-button--${buttonProps.type}`]: buttonProps.type };
     });
     return (_ctx, _cache) => {
       return vue.openBlock(), vue.createElementBlock("button", {
-        class: vue.normalizeClass(["ex-button", vue.unref(buttonStyle)])
+        class: vue.normalizeClass(["exc-button", vue.unref(buttonStyle)])
       }, "测试按钮", 2);
     };
   }

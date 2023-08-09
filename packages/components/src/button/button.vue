@@ -2,7 +2,7 @@
    import './style/index.less'
    import { computed } from 'vue'
    
-   defineOptions({name: 'ex-button'})
+   defineOptions({name: 'exc-button'})
 
    type ButtonProps = {
       type?: string
@@ -11,10 +11,10 @@
    const buttonProps = defineProps<ButtonProps>();
 
    const buttonStyle = computed(() => {
-      return { [`ex-button--${buttonProps.type}`]: buttonProps.type }
+      return { [`exc-button--${buttonProps.type}`]: buttonProps.type }
    });
 </script>
 
 <template>
-  <button class="ex-button" :class="buttonStyle">测试按钮</button>
+  <button class="exc-button" :class="buttonStyle">测试按钮</button>
 </template>
