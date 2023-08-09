@@ -1,5 +1,5 @@
 {
-  "name": "ex-ui",
+  "name": "@renwei/ex-ui",
   "version": "1.0.0",
   "description": "vue3 组件库",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "lib"
   ],
   "keywords": [
-    "ex-ui",
+    "@renwei/ex-ui",
     "vue3组件库"
   ],
   "sideEffects": [
