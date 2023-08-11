@@ -51,6 +51,9 @@
     "vue": "^3.2.36"
   },
   "dependencies": {
-    "@exc-ui/hooks": "workspace:^"
+    "@exc-ui/hooks": "workspace:^",
+    "@types/lodash": "^4.14.197",
+    "@types/lodash-es": "^4.17.8",
+    "lodash": "^4.17.21"
   }
 }
